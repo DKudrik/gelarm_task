@@ -9,3 +9,4 @@ services:
       - .env
     volumes:
       - ./gelarm_tables.ddl:/gelarm_tables.ddl
+      - ./add_data.sql:/add_data.sql

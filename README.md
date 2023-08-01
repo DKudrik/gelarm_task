@@ -2,4 +2,4 @@
    _sudo docker-compose up -d --build_
   
 2. Далеее для создания необходимых таблиц в БД нужно ввести команду 
-   _sudo docker exec -it gelarm psql -h 127.0.0.1 -U gelarm -d gelarm_db -f gelarm_tables.ddl_
+   _sudo docker exec -it gelarm psql -h 127.0.0.1 -U gelarm -d gelarm_db -f gelarm_tables.ddl -f add_data.sql_

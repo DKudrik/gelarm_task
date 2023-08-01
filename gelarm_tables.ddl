@@ -2,7 +2,7 @@ CREATE SCHEMA IF NOT EXISTS gelarm;
 
 SET search_path TO gelarm, public;
 
-DROP TABLE gelarm.federal_project;
+DROP TABLE gelarm.federal_projects;
 CREATE TABLE IF NOT EXISTS gelarm.federal_projects (
 		id SERIAL PRIMARY KEY,
 		name TEXT

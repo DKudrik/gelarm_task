@@ -1,0 +1,1 @@
+INSERT INTO gelarm.federal_projects (name) VALUES ('итого');
